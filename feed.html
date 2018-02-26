@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>feedpage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="jumbotron" style="margin-left: 30px;margin-top: 30px;margin-right: 30px;margin-bottom: 30px;">
+  <div class="container" >
+    <h1 class="display-3" style="text-align: center;">Your recent feed is :-</h1>
+   <div class="row">
+    	<div class="col-md-4" style="text-align: left;"><h4>Created Time:</h4></div><div class="col-md-4" id="ct"></div>	
+  </div>
+  <div class="row">
+    	<div class="col-md-4" style="text-align: left;"><h4>Type:</h4></div><div class="col-md-4" style="color: red" id="tp"></div>	
+  </div>
+  <div class="row">
+    	<div class="col-md-4" style="text-align: left;"><h4>Picture:</h4></div><div id="pic" class="col-md-4"></div>	
+  </div>
+  <div class="row">
+    	<div class="col-md-4" style="text-align: left;"><h4>Story:</h4></div><div class="col-md-4" id="stor" style="color: green"></div>	
+  </div>
+  <div class="row">
+    	<div class="col-md-4" style="text-align: left;"><h4>Message:</h4></div><div class="col-md-4" id="msg" style="color: blue"></div>	
+  </div>
+    <div class="row">
+    	<div class="col-md-4" style="text-align: left;"><h4>Link:</h4></div><div class="col-md-4" id="lin" style="color: blue"></div>	
+  </div>
+  <div style="margin-top: 10px">
+  <center>
+<input type="text" name="token1" placeholder="Please copy and paste your token here !!" id="tok" value="" style="width: 100%"></center>
+  </div>
+  <div style="margin-top: 10px">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="edfeed.js"></script>
+<center><button type="button" id="btn2">Click Here!</button></div>
+</div></body>
+</html>
